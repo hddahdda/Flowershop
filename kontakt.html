@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3baaafe9f4.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Blomlådan</title>
+</head>
+
+<body>
+    <!---Header-->
+    <header>
+        <div class="header">
+            <h1><a href="index.html">Blomlådan</a> </h1>
+            <h2>Din blomsterbutik online.</h2>
+        </div>
+        <div class="text-align">
+            <div class="links-navbar">
+                <ul>
+                    <li><a href="https://sv.wikipedia.org/wiki/Blomma" target="_blank">Om Blommor</a></li>
+                    <li><a href="https://sv.wikipedia.org/wiki/Tr%C3%A4d" target="_blank">Om Träd</i></a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!---/Header-->
+    <hr>
+
+    <!--- Form, Kontakta oss-->
+    <div id="form">
+        <h2>Kontakta oss.</h2>
+        <div id="error_message">
+        </div>
+        <form action="" id="contactForm" onsubmit="return validering();">
+            <div class="input-box">
+                <input type="text" placeholder="Namn" id="namn">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Ämne" id="ämne">
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input-box">
+                <textarea placeholder="Meddelande" id="meddelande"></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <!----/Form Kontaakta oss-->
+
+    <!---Footer-->
+    <footer>
+        <div id="footer">
+            <ul>
+                <li><i class="far fa-copyright"></i>
+                    2021 Blomlådan AB</li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!---/Footer-->
+    <script src="assets/js/my_js.js"></script>
+</body>
+
+</html>

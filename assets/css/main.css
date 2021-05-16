@@ -1,0 +1,141 @@
+/* Generella regler */
+
+:root {
+    --main-bg-color: #e1e5ea;
+    --main-txt-color: #232b2b;
+    --footer-bg-color: #1e6f5c;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+
+/* Avser header */
+
+.header {
+    text-align: center;
+
+}
+
+h1 a {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2rem 0 1rem 0;
+    font-size: 3rem;
+    color: seagreen;
+    text-decoration: none;
+
+}
+
+h1 a:hover {
+    color: #1b5233;
+}
+
+
+b {
+    color: #810000;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+hr {
+    border-top: 2px solid seagreen;
+    border-radius: 90%;
+    width: 40%;
+    padding: 1rem;
+
+}
+
+.links-navbar ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.links-navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.links-navbar li a {
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.links-navbar li a:hover {
+    color: green;
+}
+
+/* Avser sektion för produkter */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.container img {
+    width: 20rem;
+    height: 20rem;
+    border-width: 0.5px green;
+    border-radius: 20%;
+}
+
+.con-1 {
+    padding: 0.5rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+/* Footer*/
+
+footer {
+    background-color: var(--footer-bg-color);
+    position: absolute;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    color: #fafafa;
+}
+
+footer li {
+    display: inline-block;
+    padding: 3rem;
+    font-size: 1.5rem;
+
+}
+
+footer li a {
+    font-size: 2rem;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #a6a6a6;
+}
+
+/* Kontakt */
+
+#form {
+    text-align: center;
+    padding: 1rem;
+}
+
+.input-box {
+    padding: 1rem;
+}
+
+.input-box textarea {
+    padding: 2rem;
+
+}
